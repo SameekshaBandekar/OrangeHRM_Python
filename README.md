@@ -12,29 +12,52 @@ It follows the Page Object Model (POM) design pattern:
 OrangeHRMTest/
 
 |── main/
-│    ├── pages/   
+
+│    ├── pages/ 
+
                 
 │   │       ├── login_page.py
+
 │   │        ├── dashboard_page.py
+
 │   │          └── pim_page.py
+
 │    ├── resources/
+
 │   │         ├── config.properties
+
 │   │         ├── create_testdata.py
+
 │   │         ├── testdata.xlsx
+
 │   │           └── testdata1.json
+
 │   └── utils/
+
 │               ├── screenshot_utils.py
+
 │               ├── excel_utils.py
+
 │               ├── json_utils.py
+
 │                └── wait_utils.py
+
 ├── test/
+
 │      ├── testHRM/
+
 │   │         ├── reports/
+
 │   │   │             └── screenshots.py
+
 │   │        ├── test_addnew_employee.py
+
 │   │        ├── test_login.py
+
 │   │   └── TestComponent/
+
 │                └── base_test.py
+
 
 **Tools & Technologies**
 
