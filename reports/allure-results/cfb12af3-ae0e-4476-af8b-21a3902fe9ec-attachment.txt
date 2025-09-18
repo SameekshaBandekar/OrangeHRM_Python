@@ -1,0 +1,1 @@
+Login failed for user: user1. Error: Invalid credentials
